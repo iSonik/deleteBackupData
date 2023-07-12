@@ -185,7 +185,7 @@ const filter30firstDays = () => {
     }
     )
     return onlyCurrentMonth.filter((x, i) => {
-        return x[i] != onlyCurrentMonth.length - 1
+        return i != onlyCurrentMonth.length - 1
     })
 }
 
